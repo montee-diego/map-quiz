@@ -1,3 +1,11 @@
+# MapQuiz
+
+![MapQuiz](./MapQuiz.png)
+
+## Objective
+
+## Technical Overview
+
 Making SVG interactive
 Panning and Zooming
 Handle click and touch events in JS
