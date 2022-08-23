@@ -115,7 +115,7 @@ const handleDataFetch = href => {
   const url = href.replace(/\/$/, "");
   const map = url.substring(url.lastIndexOf("/") + 1);
 
-  fetch("/data/maps.json")
+  fetch("../../data/maps.json")
     .then(res => res.json())
     .then(data => {
       mapData = data[map];
