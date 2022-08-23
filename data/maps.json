@@ -1,0 +1,97 @@
+{
+  "argentina": [
+    {
+      "name": "Buenos Aires",
+      "hint": "map-center"
+    },
+    {
+      "name": "Catamarca",
+      "hint": "map-north"
+    },
+    {
+      "name": "Chaco",
+      "hint": "map-north"
+    },
+    {
+      "name": "Chubut",
+      "hint": "map-south"
+    },
+    {
+      "name": "Córdoba",
+      "hint": "map-center"
+    },
+    {
+      "name": "Corrientes",
+      "hint": "map-north"
+    },
+    {
+      "name": "Entre Ríos",
+      "hint": "map-center"
+    },
+    {
+      "name": "Formosa",
+      "hint": "map-north"
+    },
+    {
+      "name": "Jujuy",
+      "hint": "map-north"
+    },
+    {
+      "name": "La Pampa",
+      "hint": "map-center"
+    },
+    {
+      "name": "La Rioja",
+      "hint": "map-north"
+    },
+    {
+      "name": "Mendoza",
+      "hint": "map-center"
+    },
+    {
+      "name": "Misiones",
+      "hint": "map-north"
+    },
+    {
+      "name": "Neuquén",
+      "hint": "map-south"
+    },
+    {
+      "name": "Río Negro",
+      "hint": "map-south"
+    },
+    {
+      "name": "Salta",
+      "hint": "map-north"
+    },
+    {
+      "name": "Santa Cruz",
+      "hint": "map-south"
+    },
+    {
+      "name": "Santiago del Estero",
+      "hint": "map-north"
+    },
+    {
+      "name": "Santa Fe",
+      "hint": "map-center"
+    },
+    {
+      "name": "San Juan",
+      "hint": "map-center"
+    },
+    {
+      "name": "San Luis",
+      "hint": "map-center"
+    },
+    {
+      "name": "Tierra del Fuego",
+      "hint": "map-south"
+    },
+    {
+      "name": "Tucumán",
+      "hint": "map-north"
+    }
+  ],
+  "italy": []
+}
