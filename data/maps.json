@@ -93,5 +93,86 @@
       "hint": "map-north"
     }
   ],
-  "italy": []
+  "italy": [
+    {
+      "name": "Abruzzo",
+      "hint": "map-center"
+    },
+    {
+      "name": "Basilicata",
+      "hint": "map-south"
+    },
+    {
+      "name": "Calabria",
+      "hint": "map-south"
+    },
+    {
+      "name": "Campania",
+      "hint": "map-south"
+    },
+    {
+      "name": "Emilia-Romagna",
+      "hint": "map-north"
+    },
+    {
+      "name": "Friuli-Venezia Giulia",
+      "hint": "map-north"
+    },
+    {
+      "name": "Lazio",
+      "hint": "map-center"
+    },
+    {
+      "name": "Liguria",
+      "hint": "map-north"
+    },
+    {
+      "name": "Lombardia",
+      "hint": "map-north"
+    },
+    {
+      "name": "Marche",
+      "hint": "map-center"
+    },
+    {
+      "name": "Molise",
+      "hint": "map-south"
+    },
+    {
+      "name": "Piemonte",
+      "hint": "map-north"
+    },
+    {
+      "name": "Puglia",
+      "hint": "map-south"
+    },
+    {
+      "name": "Sardegna",
+      "hint": "map-south"
+    },
+    {
+      "name": "Sicilia",
+      "hint": "map-south"
+    },
+    {
+      "name": "Toscana",
+      "hint": "map-center"
+    },
+    {
+      "name": "Trentino-Alto Adige",
+      "hint": "map-north"
+    },
+    {
+      "name": "Umbria",
+      "hint": "map-center"
+    },
+    {
+      "name": "Valle d'Aosta",
+      "hint": "map-north"
+    },
+    {
+      "name": "Veneto",
+      "hint": "map-north"
+    }
+  ]
 }
