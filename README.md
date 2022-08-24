@@ -1,6 +1,6 @@
 # MapQuiz
 
-![MapQuiz](./gh-thumb.jpg)
+![MapQuiz](./gh-image.jpg)
 
 [**Live Site**](https://montee-diego.github.io/map-quiz/)
 
