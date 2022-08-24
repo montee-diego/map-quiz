@@ -2,7 +2,7 @@
 
 ![MapQuiz](./MapQuiz.png)
 
-[Live Version](https://montee-diego.github.io/map-quiz/).
+[**Live Site**](https://montee-diego.github.io/map-quiz/)
 
 ## Objective
 
