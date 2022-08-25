@@ -15,6 +15,7 @@ const countIncorrect = document.querySelector(".count-incorrect");
 const countHint = document.querySelector(".count-hint");
 const countTotal = document.querySelector(".count-total");
 const hintBtn = document.querySelector(".hint-btn");
+const resetBtn = document.querySelector(".reset-btn");
 const prompt = document.querySelector(".prompt");
 
 // PAN & ZOOM Variables
@@ -52,6 +53,7 @@ const handlePromptUpdate = () => {
   if (!mapData.length) {
     prompt.innerText = "Congratulations! You completed the map.";
     hintBtn.disabled = true;
+    resetBtn.disabled = false;
     return;
   }
 
@@ -111,6 +113,36 @@ const handleHintEffect = region => {
   }
 };
 
+const handleReset = () => {
+  handleDataFetch(window.location.href);
+
+  found = 0;
+  incorrect = 0;
+  hint = 0;
+
+  countFound.innerHTML = `Found: <strong>${found}</strong>`;
+  countIncorrect.innerHTML = `Incorrect: <strong>${incorrect}</strong>`;
+  countHint.innerHTML = `Hint: <strong>${hint}</strong>`;
+
+  mapLand.forEach(land => {
+    land.classList.remove("found");
+  });
+
+  fromX = 0;
+  fromY = 0;
+  lastX = 0;
+  lastY = 0;
+  mapScale = MIN_SCALE;
+  mapRange = 0;
+  mapX = 0;
+  mapY = 0;
+
+  handleMapMatrix(lastX, lastY, null);
+
+  hintBtn.disabled = false;
+  resetBtn.disabled = true;
+};
+
 const handleDataFetch = href => {
   const url = href.replace(/\/$/, "");
   const map = url.substring(url.lastIndexOf("/") + 1);
@@ -130,6 +162,7 @@ const handleDataFetch = href => {
 
 // APP Listeners
 hintBtn.addEventListener("click", handleHint);
+resetBtn.addEventListener("click", handleReset);
 
 mapLand.forEach(land => {
   land.addEventListener("mouseenter", event => {

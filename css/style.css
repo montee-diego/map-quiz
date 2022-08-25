@@ -160,18 +160,18 @@ span {
   margin: 0.5rem 0rem;
 }
 
-.hint-btn {
+.menu-btn {
   align-self: flex-start;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 0.2rem 0.5rem;
 }
 
-.hint-btn:hover {
+.menu-btn:hover {
   background-color: var(--map-hint);
 }
 
-.hint-btn:disabled {
+.menu-btn:disabled {
   display: none;
 }
 

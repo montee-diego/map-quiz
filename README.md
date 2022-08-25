@@ -1,8 +1,10 @@
 # MapQuiz
 
-![MapQuiz](./gh-image.jpg)
+Check out the [**Live Site**](https://montee-diego.github.io/map-quiz/)!
 
-[**Live Site**](https://montee-diego.github.io/map-quiz/)
+## Screenshot
+
+![MapQuiz](./gh-image.jpg)
 
 ## Objective
 
@@ -25,7 +27,7 @@ likely that the user is familiar with it.
 ## Compatibility
 
 - Tested on desktop: Firefox, Chrome and Edge
-- Tested on mobile: Firefox, Chrome
+- Tested on mobile: Firefox, Chrome and Safari
 
 ## Comments
 
